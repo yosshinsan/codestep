@@ -4,6 +4,68 @@ html{
    font-size: 100%;
 }
 
-div{
-   background-color: aquamarine; 
+body{
+   background-color: rgb(197, 234, 243);
+}
+
+header{
+   margin-bottom: 20px;
+}
+
+h1 img{
+   width: 150px;
+}
+
+ol li{
+   list-style-type: decimal;
+}
+
+#wrapper{
+   margin: 0 auto;
+   width: 1000px;
+}
+
+#main_visual{
+   margin-bottom: 50px;
+   max-width: 100%;
+}
+
+#index{
+   margin-bottom: 50px;
+   background-color: aliceblue;
+}
+
+.contents{
+   margin: 0 auto;
+   width: 600px;
+}
+
+#detail{
+   margin: 0 auto 100px auto;
+   width: 600px;
+}
+
+#detail_contents{
+   display: flex;
+   justify-content: space-between;
+}
+
+#detail img{
+   width: 300px; 
+}
+
+#detail_contents h3,dl,p{
+   margin-bottom: 20px;
+}
+
+#detail_contents dl{
+   padding: 10px 0 10px 0;
+   border-top: 1px solid gray;
+   border-bottom: 1px solid gray;
+}
+
+@media screen and (max-width:1024px){
+   #detail_contents{
+      flex-direction: column;
+   }
 }
