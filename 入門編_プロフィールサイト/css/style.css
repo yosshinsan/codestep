@@ -27,6 +27,9 @@ ol li{
 
 #main_visual{
    margin-bottom: 50px;
+}
+
+#main_visual img{
    max-width: 100%;
 }
 
@@ -65,7 +68,23 @@ ol li{
 }
 
 @media screen and (max-width:1024px){
+
+   .contents{
+      width: 60%;
+   }
+
+   #wrapper{
+      width: 100%;
+   }
+
    #detail_contents{
       flex-direction: column;
    }
+
+   #index{
+      margin-bottom: 50px;
+      background-color: aliceblue;
+   }
+
+
 }
