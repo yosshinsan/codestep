@@ -34,7 +34,14 @@ header{
 /**********/
 
 #mainvisual{
+   max-width: 100%;
    margin-bottom: 50px;
+}
+
+#mainvisual img{
+   width: 100%;
+   height: 500px;
+   object-fit: none;
 }
 
 h2{
@@ -89,9 +96,51 @@ h2{
    font-size: 0.8rem;
 }
 
+#detail_contents dt{
+   margin-bottom: 10px;
+}
+
+#detail_contents dd:not(:last-child){
+   margin-bottom: 20px;
+}
+
 #detail_sentense{
    display: flex;
    flex-direction: column;
    justify-content: space-between;
    /* https://gimmicklog.com/css3/758/ */
+   padding-left: 20px;
+   border-left: 1px solid black;
+}
+
+@media screen and (max-width: 1024px){
+
+   #subvisual{
+      flex-direction: column;
+      width: 100%;
+   }
+
+   #subvisual img{
+      margin: 0 auto 30px auto;
+      max-width: 100%;
+      object-fit: cover;
+
+   }
+
+   #detail_contents{
+      flex-direction: column;
+   }
+   
+   #detail_sentense{
+      margin-top: 20px;
+      padding-top: 20px;
+      padding-left: 0px;
+      border-left: none;
+      border-top: 1px solid black;
+   }
+
+   #detail_sentense p{
+      margin-bottom: 10px;
+   }
+   
 }
