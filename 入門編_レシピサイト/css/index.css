@@ -14,15 +14,15 @@ h1{
    font-size: 2rem;
    font-weight: bold;
    margin-top: 20px;
-   margin-bottom: 30px;
+   /* margin-bottom: 30px; */
 }
 
 p{
+   margin-top: 50px;
    margin-bottom: 50px;
    text-align: center;
    line-height: 1.8;
    letter-spacing: 0.08em;
-
 }
 
 /**********/
@@ -45,11 +45,45 @@ p{
 }
 
 #sub_visual li{
-   flex-basis: 33%;
+   width: calc(100%/3);
 }
 
 #sub_visual img{
    width: 100%;
    height: 500px;
    object-fit: cover;
+}
+
+.btn{
+   display: inline-block;
+   padding: 10px;
+   border: 1px solid black;
+}
+
+/**********/
+/* fotter */
+/**********/
+footer ul{
+   display: flex;
+   justify-content: center;
+}
+
+footer ul li{
+   margin: 0 10px;
+   border-bottom: 1px solid black;
+}
+
+footer p{
+   margin-top: 10px;
+   margin-bottom: 10px;
+}
+
+@media screen and (max-width: 1024px){
+   #sub_visual ul{
+      flex-direction: column;
+   }
+   
+   #sub_visual li{
+      width: 100%;
+   }
 }

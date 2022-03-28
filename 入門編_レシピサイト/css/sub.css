@@ -1,0 +1,64 @@
+@charset "utf-8";
+
+
+html{
+   font-size: 100%;
+}
+
+body{
+   font-family: 'Helvetica Neue','Arial','Hiragino Sans','Meiryo','sans-serif';
+}
+
+
+/**********/
+/* main */
+/**********/
+#recipe{
+   display: flex;
+   /* justify-content: space-between; */
+}
+
+#recipe div{
+   width: 50%;
+}
+
+#recipe img{
+   max-width: 100%;
+   object-fit: cover;
+   /* width: 50%; */
+}
+
+
+.btn{
+   display: inline-block;
+   padding: 10px;
+   border: 1px solid black;
+}
+
+/**********/
+/* fotter */
+/**********/
+footer ul{
+   display: flex;
+   justify-content: center;
+}
+
+footer ul li{
+   margin: 0 10px;
+   border-bottom: 1px solid black;
+}
+
+footer p{
+   margin-top: 10px;
+   margin-bottom: 10px;
+}
+
+@media screen and (max-width: 1024px){
+   #sub_visual ul{
+      flex-direction: column;
+   }
+   
+   #sub_visual li{
+      width: 100%;
+   }
+}
