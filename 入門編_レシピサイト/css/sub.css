@@ -18,6 +18,11 @@ body{
    /* justify-content: space-between; */
 }
 
+#recipe_detail{
+   padding: 5%;
+   /* justify-content: space-between; */
+}
+
 #recipe div{
    width: 50%;
 }
@@ -28,6 +33,33 @@ body{
    /* width: 50%; */
 }
 
+h1{
+   font-size: 1.8rem;
+   margin-bottom: 20px;
+}
+
+h2{
+   font-size: 1.3rem;
+   margin-bottom: 20px;
+   border-bottom: 1px solid gray;
+}
+
+p{
+   /* font-size: 1.1rem; */
+   margin-bottom: 20px;
+   letter-spacing: 0.1em;
+}
+
+table{
+   margin-bottom: 20px;
+   line-height: 2;
+}
+
+
+ol{
+   margin-bottom: 20px;
+   line-height: 2;
+}
 
 .btn{
    display: inline-block;
