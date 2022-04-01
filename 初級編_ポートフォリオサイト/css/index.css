@@ -1,0 +1,92 @@
+@charset "utf-8";
+
+
+html{
+   font-size: 100%;
+}
+
+body{
+   font-family: 'Courgette', cursive;
+   letter-spacing: 0.05em;
+}
+
+.container{
+   width: 960px;
+   margin: 0 auto;
+   padding: 4%;
+}
+
+.content-box{
+   margin-bottom: 60px;
+}
+
+.content-title{
+   font-size: 1.5em;
+}
+
+.content-item{
+   margin-bottom: 30px;
+}
+
+/**********/
+/* main_visual */
+/**********/
+.main-visual{
+   width: 100%;
+}
+
+.img-main{
+   width: 100%;
+   height: 420px;
+   object-fit: cover;
+}
+
+.content-imgs{
+   display: flex;
+   flex-wrap: wrap;
+}
+
+.content-imgs-item{
+   width: calc(100%/3);
+}
+
+.img-content-item{
+   width: 100%;
+   height: 300px;
+   object-fit: cover;
+}
+
+/**********/
+/* header */
+/**********/
+.header{
+   display: flex;
+   justify-content: space-between;
+}
+
+.site-content-list{
+   display: flex;
+}
+
+.site-content-item{
+   margin-left: 30px;
+}
+
+.img-insta{
+   width: 20px;
+}
+
+/**********/
+/* main */
+/**********/
+
+
+/**********/
+/* fotter */
+/**********/
+
+
+@media screen and (max-width: 1024px){
+   
+
+}

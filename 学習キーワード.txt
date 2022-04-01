@@ -134,5 +134,10 @@ pタグのなかのインライン要素(あいうえお)が中央寄せとなる
 header main fotterについて
 headerがなければむりやりheaderタグを設ける必要はない
 
+メールを送信するには
+<a href="mailto:user@dammy.com">XXXXXXXXX</a>
+
+align-items
+おそらくフレックスボックスの子要素の位置を決められるっぽい
 
 
