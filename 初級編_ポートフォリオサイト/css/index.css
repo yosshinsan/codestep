@@ -29,34 +29,6 @@ body{
 }
 
 /**********/
-/* main_visual */
-/**********/
-.main-visual{
-   width: 100%;
-}
-
-.img-main{
-   width: 100%;
-   height: 420px;
-   object-fit: cover;
-}
-
-.content-imgs{
-   display: flex;
-   flex-wrap: wrap;
-}
-
-.content-imgs-item{
-   width: calc(100%/3);
-}
-
-.img-content-item{
-   width: 100%;
-   height: 300px;
-   object-fit: cover;
-}
-
-/**********/
 /* header */
 /**********/
 .header{
@@ -77,16 +49,150 @@ body{
 }
 
 /**********/
-/* main */
+/* main_visual */
 /**********/
+.main-visual{
+   width: 100%;
+}
 
+.img-main{
+   width: 100%;
+   height: 420px;
+   object-fit: cover;
+}
+
+.content-imgs{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+}
+
+.content-imgs-item{
+   /* width: calc(100%/3); */
+   width: 30%;
+   margin-bottom: 50px;
+}
+
+.img-content-item{
+   width: 100%;
+   height: 200px;
+   object-fit: cover;
+}
+
+.news-row{
+   display: flex;
+   padding-top: 20px;
+   padding-bottom: 20px;
+   border-top: 1px solid gray;
+}
+
+.news-row-last{
+   border-bottom: 1px solid gray;
+}
+
+.news-dt{
+   width: 20%;
+}
+
+.news-dd{
+   width: 80%;
+}
+
+.form-row{
+   display: flex;
+   padding-top: 10px;
+   padding-bottom: 10px;
+}
+
+.form-dt{
+   width: 20%;
+}
+
+.form-dd{
+   width: 80%;
+}
+
+.input-comp{
+   width: 100%;
+   border: 0.5px solid gray;
+}
+
+.button{
+   background-color: black;
+   color: aliceblue;
+   margin: 20px auto;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   width: 100px;
+   text-align: center;
+}
 
 /**********/
 /* fotter */
 /**********/
+.footer{
+   padding: 20px 0 20px 0;
+   background-color: black;
+}
+
+.copy-right{
+   text-align: center;
+   color:aliceblue;
+}
+
+input{
+   padding-left: 1em;
+   text-indent: 1em;
+
+}
 
 
 @media screen and (max-width: 1024px){
    
+   .container{
+      width: 100%;
+   }
 
+   .header{
+      flex-direction: column;
+   }
+
+   .site-title{
+      text-align: center;
+   }
+   .site-content-list{
+      justify-content: center;
+   }
+
+   .content-imgs{
+      flex-direction: column;
+   }
+   
+   .content-imgs-item{
+      width: 100%;
+   }
+
+   .img-content-item{
+      height: 300px;
+   }
+
+   .news-row{
+      flex-direction: column;
+   }
+
+   .news-dt{
+      margin-bottom: 10px;
+   }
+
+   .form-row{
+      flex-direction: column;
+   }
+
+   .form-dt{
+      width: 100%;
+   }
+   
+   .form-dd{
+      width: 100%;
+   }
 }

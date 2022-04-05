@@ -1,0 +1,31 @@
+@charset "utf-8";
+
+
+html{
+   font-size: 100%;
+}
+
+body{
+   font-family: 'Courgette', cursive;
+   letter-spacing: 0.05em;
+}
+
+/**********/
+/* header */
+/**********/
+
+
+/**********/
+/* main_visual */
+/**********/
+
+
+/**********/
+/* fotter */
+/**********/
+
+
+
+@media screen and (max-width: 1024px){
+   
+}

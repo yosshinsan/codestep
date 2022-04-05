@@ -59,34 +59,65 @@
                 <section class="content-box">
                     <h2 class="content-item content-title">News</h2>
                     <dl class="content-item">
-                        <dt>2020.XX.XX</dt>
-                        <dd>デザイン雑誌「ＸＸＸＸＸＸ Vol.11』に掲載していただきました。</dd>
-                        <dt>2020.XX.XX</dt>
-                        <dd>ＸＸ月ＸＸ日から写真集「ＸＸＸＸＸＸＸ」の販売を開始します。</dd>
-                        <dt>2019.XX.XX</dt>
-                        <dd>【イベント開催のお知らせ】テキストテキストテキストテキストテキストテキストテキスト</dd>
-                        <dt>2019.XX.XX</dt>
-                        <dd>デザイン雑誌「ＸＸＸＸＸＸ Vol.10』に掲載していただきました。</dd>
-                        <dt>2019.XX.XX</dt>
-                        <dd>【個展開催のお知らせ】テキストテキストテキストテキストテキストテキストテキスト</dd>
+                        <div class="news-row">
+                            <dt class="news-dt">2020.XX.XX</dt>
+                            <dd class="news-dd">デザイン雑誌「ＸＸＸＸＸＸ Vol.11』に掲載していただきました。</dd>
+                        </div>
+                        <div class="news-row">                      
+                            <dt class="news-dt">2020.XX.XX</dt>
+                            <dd class="news-dd">ＸＸ月ＸＸ日から写真集「ＸＸＸＸＸＸＸ」の販売を開始します。</dd>
+                        </div>
+                        <div class="news-row">                        
+                            <dt class="news-dt">2019.XX.XX</dt>
+                            <dd class="news-dd">【イベント開催のお知らせ】テキストテキストテキストテキストテキストテキストテキスト</dd>
+                        </div>
+                        <div class="news-row">                        
+                            <dt class="news-dt">2019.XX.XX</dt>
+                            <dd class="news-dd">デザイン雑誌「ＸＸＸＸＸＸ Vol.10』に掲載していただきました。</dd>
+                        </div>
+                        <div class="news-row news-row-last">                        
+                            <dt class="news-dt">2019.XX.XX</dt>
+                            <dd class="news-dd">【個展開催のお知らせ】テキストテキストテキストテキストテキストテキストテキスト</dd>
+                        </div>
                     </dl>
                 </section>
                 <section class="content-box">
                     <h2 class="content-item content-title">Contact</h2>
-                    <form  class="content-item" action="送信先" method="送信方式">
-                        <p>Name<input type="text" name="user_name"></p>
-                        <p>E-mail<input type="email" name="user_mail"></p>
-                        <p>MESSAGE<textarea name="user_mail"></textarea></p>
-                        <p><input type="submit" value="送信"></p>
+                    <form  class="content-item" action="#" method="post">
+                        <dl>
+                            <div class=form-row>
+                                <dt class="form-dt">
+                                    <label for="name">Name</label>
+                                </dt>
+                                <dd class="form-dd">
+                                    <input id="name" class="input-comp" type="text" name="user_name">
+                                </dd>
+                            </div>
+                            <div class=form-row>
+                                <dt class="form-dt">
+                                    <label for="e_mail">E-mail</label>
+                                </dt>
+                                <dd class="form-dd">
+                                    <input id="e_mail" class="input-comp" type="email" name="user_mail">
+                                </dd>
+                            </div> 
+                            <div class="form-row">
+                                <dt class="form-dt">
+                                    <label for="message">MESSAGE</label>
+                                </dt>
+                                <dd class="form-dd">
+                                    <textarea id="message" class="input-comp" name="user_mail"></textarea>
+                                </dd>
+                            </div>
+                        </dl>
+                        <p class="button"><input type="submit" value="送信"></p>
                     </form>
                 </section>
             </div>
         </main>
-        <footer>
-            <p>©2020 My Work</p>
+        <footer class="footer">
+            <p class="copy-right">©2020 My Work</p>
         </footer>
-
-
     </body>
 
 
