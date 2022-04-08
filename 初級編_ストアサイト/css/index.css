@@ -10,13 +10,47 @@ body{
    letter-spacing: 0.05em;
 }
 
-/**********/
-/* header */
-/**********/
+.container{
+   max-width: 1200px;
+   padding: 5%;
+   margin: 0 auto;
+}
 
+/* .witdh-full{
+   width: 100%;
+} */
+
+.object-fit-full{
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+}
+
+.object-fit-half{
+   width: 50%;
+   /* height: 100%; */
+   object-fit: cover;
+}
+
+.flex{
+   display: flex;
+}
+
+/* .sub-visual{
+   width: 90%;
+} */
 
 /**********/
 /* main_visual */
+/**********/
+.main-visual{
+   width: 100%;
+   height: 100vh;
+}
+
+
+/**********/
+/* main*/
 /**********/
 
 
