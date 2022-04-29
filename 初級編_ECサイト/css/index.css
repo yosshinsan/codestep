@@ -1,0 +1,144 @@
+@charset "utf-8";
+
+html{
+   font-size: 100%;
+}
+
+body{
+   font-family: 'Courgette', cursive;
+   letter-spacing: 0.05em;
+}
+
+.center-text{
+   text-align: center;
+}
+
+.nav-container{
+   display: flex;
+   justify-content: space-around;
+   padding-bottom: 30px;
+   border-bottom: solid 1px gray;
+}
+
+.nav-container__nav{
+   display: flex;
+}
+
+.nav-container__nav__item{
+   margin-right: 20px;
+}
+
+.main-container{
+   width: 1000px;
+   margin: 0 auto;
+}
+
+.main-contents{
+   display: flex;
+   justify-content: space-around;
+   max-width: 800px;
+   margin: 50px auto;
+}
+
+.main-contents__item{
+   width: 45%;
+}
+
+.main-contents__item p{
+   margin-top: 20px;
+   margin-bottom: 20px;
+}
+
+
+.main-img{
+   object-fit: cover;
+   width: 100%;
+   height: 500px;
+}
+
+.btn{
+   display: inline-block;
+   box-sizing: border-box;
+   border: 1px solid #000;
+   padding: 0.8em 1em;
+   text-align: center;
+   line-height: 1;
+   background: #EEE;
+   cursor: pointer;
+   width: 100%;
+   margin-bottom: 20px;
+}
+
+.table1{
+   margin-bottom: 20px;
+   width: 100%;
+}
+
+.table1 td{
+   padding-top: 0.5em;
+   padding-bottom: 0.5em;
+   border-bottom: 1px solid gray;
+   text-align: center;
+}
+
+.table1 th{
+   padding-top: 0.5em;
+   padding-bottom: 0.5em;
+   background-color: rgb(174, 199, 199);
+   text-align: center;
+}
+
+.table2{
+   margin-bottom: 20px;
+   width: 100%;
+}
+
+.table2 td{
+   padding-top: 0.5em;
+   padding-bottom: 0.5em;
+   border-bottom: 1px solid gray;
+   text-align: center;
+}
+
+.table2 th{
+   padding-top: 0.5em;
+   padding-bottom: 0.5em;
+   background-color: rgb(174, 199, 199);
+   text-align: center;
+}
+
+.main-title{
+   padding-top: 2rem;
+   padding-bottom: 2rem;
+   font-size: 1.5rem;
+   font-weight: bold;
+}
+
+.sub-title{
+   padding-top: 1rem;
+   padding-bottom: 1rem;
+   font-size: 1.3rem;
+   font-weight: bold;
+   border-top: solid 1px gray;
+   border-bottom: solid 1px gray;
+}
+
+.tmp{
+   width: 50px;
+   height: 50px;
+}
+
+@media screen and (max-width: 896px){
+   
+   .main-container{
+      width: 100%;
+   }
+   
+   .main-contents{
+      flex-direction: column;
+   } 
+   
+   .main-contents__item{
+      width: 100%;
+   }
+}

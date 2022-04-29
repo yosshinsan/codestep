@@ -10,10 +10,15 @@ body{
    letter-spacing: 0.05em;
 }
 
+h2{
+   font-size: 1.5em;
+   line-height: 3;
+}
+
 .container{
    max-width: 1200px;
-   padding: 5%;
-   margin: 0 auto;
+   padding: 0 5%;
+   margin: 100px auto;
 }
 
 /* .witdh-full{
@@ -27,14 +32,25 @@ body{
 }
 
 .object-fit-half{
-   width: 50%;
-   /* height: 100%; */
+   width: 100%;
+   height: 50%;
+   object-fit: cover;
+}
+
+.object-fit-fashion{
+   width: 1200px;
+   height: 300px;
    object-fit: cover;
 }
 
 .flex{
    display: flex;
 }
+
+.relative{
+   position: relative;
+}
+
 
 /* .sub-visual{
    width: 90%;
@@ -48,11 +64,60 @@ body{
    height: 100vh;
 }
 
+.main-logo{
+   position: absolute;
+   top: 10px;
+   right: 10px;
+}
 
 /**********/
 /* main*/
 /**********/
+.container-sub{
+   position: relative;
+   flex-basis: 50%
+}
 
+.container-sub-detail{
+   width: 60%;
+   height: 40%;
+   position: absolute;
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0;
+   margin: auto;
+   color: white;
+   background-color: black;
+   opacity: 0.6;
+}
+
+.fashion{
+   padding-bottom: 150px;
+   background-color: rgb(177, 175, 175);
+}
+
+.container-sub-fashion h2,p{
+   margin-bottom: 50px;
+   text-align: center;
+
+}
+
+.btn{
+   width: 100px;
+   margin: 20px auto;
+   padding: 5px;
+}
+
+.center{
+   margin: 0 auto;
+   width: 1200px;
+}
+
+.fashion-image{
+   position: relative;
+   top: -200px;
+}
 
 /**********/
 /* fotter */
